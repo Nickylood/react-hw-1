@@ -30,7 +30,7 @@ export default function ContactForm({ onAdd }) {
           <Field name="name" id={fieldUser} />
         </div>
         <div>
-          <libel htmlFor={fieldNumber}>Number: </libel>
+          <label htmlFor={fieldNumber}>Number: </label>
           <Field type="tel" name="number" id={fieldNumber} />
         </div>
         <button type="submit">addContact</button>
